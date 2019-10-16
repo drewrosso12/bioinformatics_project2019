@@ -1,0 +1,50 @@
+proteome_01  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_02  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_03  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_04  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_05  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_06  [No hits detected that satisfy reporting thresholds]  [No hits detected that satisfy reporting thresholds]
+proteome_07  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_08  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_09  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_10  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_11  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_12  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_13  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_14  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_15  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_16  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_17  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_18  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_19  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_20  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_21  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_22  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_23  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_24  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_25  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_26  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_27  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_28  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_29  coenzyme-B sulfoethylthiotransferase subunit alpha  [No hits detected that satisfy reporting thresholds]
+proteome_30  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_31  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_32  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_33  [No hits detected that satisfy reporting thresholds]  [No hits detected that satisfy reporting thresholds]
+proteome_34  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_35  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_36  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_37  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_38  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_39  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_40  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_41  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_42  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_43  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_44  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_45  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_46  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_47  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_48  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
+proteome_49  [No hits detected that satisfy reporting thresholds]  Alignments for each domain
+proteome_50  coenzyme-B sulfoethylthiotransferase subunit alpha  Alignments for each domain
