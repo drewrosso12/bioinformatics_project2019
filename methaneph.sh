@@ -22,7 +22,7 @@ do
 	./hmmer/bin/hmmsearch buildhsp70.hmm $files > $recordName"h".txt
 
       proteome=$(echo $recordName | sed 's/.\/proteomes\///g')
-      create summary table collating results -- if there is an mcrA gene then it will give the coenzyme name -- if not it indicates there were no hits for that proteome
+     # create summary table collating results -- if there is an mcrA gene then it will give the coenzyme name -- if not it indicates there were no hits for that proteome
       echo $proteome " "
       cat $recordName"m".txt
       cat $recordName"h".txt 
