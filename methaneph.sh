@@ -24,13 +24,14 @@ do
       proteome=$(echo $recordName | sed 's/.\/proteomes\///g')
      # create summary table collating results -- if there is an mcrA gene then it will give the coenzyme name -- if not it indicates there were no hits for that proteome
       echo $proteome " "
-      cat $recordName"m".txt
-      cat $recordName"h".txt 
+    #  cat $recordName"m".txt
+    #  cat $recordName"h".txt 
       echo -n  $proteome " " >> summary.txt
 mcrA=$(cat $recordName"m".txt | egrep -o -m 1 "(coenzyme-B sulfoethylthiotransferase subunit alpha |\[No hits detected that satisfy reporting thresholds\])")
-hsp70=$(cat $recordName"h".txt | egrep -o -m 1 "(Alignments for each domain|\[No hits detected that satisfy reporting thresholds\])")
+hsp70=$(cat $recordName"h".txt | head -n 18 | egrep "DnaK"| wc -l)
 echo -n  $mcrA " " >> summary.txt
 echo $hsp70 >> summary.txt
 done
 #takes only those proteomes with mcrA gene and creates txt file with the name of associated proteome
-cat summary.txt | egrep "(coenzyme-B sulfoethylthiotransferase subunit alpha.*Alignments for each domain)" |cut -d ' ' -f 1,1 >> namesofsuitableproteomes.txt
+cat summary.txt | sort -k 3,3 > sortedsummary.txt
+cat sortedsummary.txt | egrep "(coenzyme-B sulfoethylthiotransferase subunit alpha.*[1-4])" |cut -d ' ' -f 1,1 >> namesofsuitableproteomes.txt
