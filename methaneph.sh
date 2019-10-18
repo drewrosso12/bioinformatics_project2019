@@ -22,16 +22,20 @@ do
 	./hmmer/bin/hmmsearch buildhsp70.hmm $files > $recordName"h".txt
 
       proteome=$(echo $recordName | sed 's/.\/proteomes\///g')
-     # create summary table collating results -- if there is an mcrA gene then it will give the coenzyme name -- if not it indicates there were no hits for that proteome
-      echo $proteome " "
-    #  cat $recordName"m".txt
-    #  cat $recordName"h".txt 
+     # create summary table collating results -- name of proteome, number mcrA genes (0,1,or2) and number hsp70 genes (0,1,2,3) 
       echo -n  $proteome " " >> summary.txt
-mcrA=$(cat $recordName"m".txt | egrep -o -m 1 "(coenzyme-B sulfoethylthiotransferase subunit alpha |\[No hits detected that satisfy reporting thresholds\])")
+mcrA=$(cat $recordName"m".txt | head -n 18 | egrep "coenzyme-B"| wc -l)
+
+#After evaluating the hmmbuild files for hsp70 and the reference proteins, we determined only molecular chaperone DnaK have biologically significant E-values
 hsp70=$(cat $recordName"h".txt | head -n 18 | egrep "DnaK"| wc -l)
+
 echo -n  $mcrA " " >> summary.txt
 echo $hsp70 >> summary.txt
 done
-#takes only those proteomes with mcrA gene and creates txt file with the name of associated proteome
-cat summary.txt | sort -k 3,3 > sortedsummary.txt
-cat sortedsummary.txt | egrep "(coenzyme-B sulfoethylthiotransferase subunit alpha.*[1-4])" |cut -d ' ' -f 1,1 >> namesofsuitableproteomes.txt
+
+#creates a summary table of each proteome, listed by order of decreasing number of hsp70 genes, and indicates how many mcrA genes and hsp70 genes 
+echo "proteome_num num-mcrA num-hsp70" > sortedsummary.txt
+cat summary.txt | sort -r -k 3,3 >> sortedsummary.txt
+
+#creates a list of only those proteomes with an mcrA gene (1 or 2 copies) and at least one hsp70 gene -- listed in order to number of hsp70 gene copies (highest first)
+cat sortedsummary.txt | egrep "((1|2)  [1-4])" |cut -d ' ' -f 1,1 >> namesofsuitableproteomes.txt

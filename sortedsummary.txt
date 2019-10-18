@@ -1,50 +1,51 @@
-proteome_01  [No hits detected that satisfy reporting thresholds]  1
-proteome_02  [No hits detected that satisfy reporting thresholds]  0
-proteome_04  [No hits detected that satisfy reporting thresholds]  1
-proteome_06  [No hits detected that satisfy reporting thresholds]  0
-proteome_08  [No hits detected that satisfy reporting thresholds]  1
-proteome_09  [No hits detected that satisfy reporting thresholds]  1
-proteome_10  [No hits detected that satisfy reporting thresholds]  1
-proteome_11  [No hits detected that satisfy reporting thresholds]  2
-proteome_12  [No hits detected that satisfy reporting thresholds]  2
-proteome_13  [No hits detected that satisfy reporting thresholds]  1
-proteome_14  [No hits detected that satisfy reporting thresholds]  1
-proteome_17  [No hits detected that satisfy reporting thresholds]  0
-proteome_18  [No hits detected that satisfy reporting thresholds]  1
-proteome_20  [No hits detected that satisfy reporting thresholds]  1
-proteome_21  [No hits detected that satisfy reporting thresholds]  1
-proteome_22  [No hits detected that satisfy reporting thresholds]  3
-proteome_25  [No hits detected that satisfy reporting thresholds]  2
-proteome_26  [No hits detected that satisfy reporting thresholds]  1
-proteome_27  [No hits detected that satisfy reporting thresholds]  1
-proteome_28  [No hits detected that satisfy reporting thresholds]  0
-proteome_30  [No hits detected that satisfy reporting thresholds]  1
-proteome_31  [No hits detected that satisfy reporting thresholds]  1
-proteome_32  [No hits detected that satisfy reporting thresholds]  1
-proteome_33  [No hits detected that satisfy reporting thresholds]  0
-proteome_34  [No hits detected that satisfy reporting thresholds]  1
-proteome_35  [No hits detected that satisfy reporting thresholds]  1
-proteome_36  [No hits detected that satisfy reporting thresholds]  1
-proteome_37  [No hits detected that satisfy reporting thresholds]  1
-proteome_40  [No hits detected that satisfy reporting thresholds]  0
-proteome_41  [No hits detected that satisfy reporting thresholds]  1
-proteome_43  [No hits detected that satisfy reporting thresholds]  1
-proteome_46  [No hits detected that satisfy reporting thresholds]  0
-proteome_47  [No hits detected that satisfy reporting thresholds]  1
-proteome_49  [No hits detected that satisfy reporting thresholds]  1
-proteome_03  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_05  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_07  coenzyme-B sulfoethylthiotransferase subunit alpha  2
-proteome_15  coenzyme-B sulfoethylthiotransferase subunit alpha  0
-proteome_16  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_19  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_23  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_24  coenzyme-B sulfoethylthiotransferase subunit alpha  2
-proteome_29  coenzyme-B sulfoethylthiotransferase subunit alpha  0
-proteome_38  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_39  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_42  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_44  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_45  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_48  coenzyme-B sulfoethylthiotransferase subunit alpha  1
-proteome_50  coenzyme-B sulfoethylthiotransferase subunit alpha  1
+proteome_num num-mcrA num-hsp70
+proteome_22  0  3
+proteome_25  0  2
+proteome_24  1  2
+proteome_12  0  2
+proteome_11  0  2
+proteome_07  1  2
+proteome_50  1  1
+proteome_49  0  1
+proteome_48  1  1
+proteome_47  0  1
+proteome_45  1  1
+proteome_44  1  1
+proteome_43  0  1
+proteome_42  1  1
+proteome_41  0  1
+proteome_39  1  1
+proteome_38  1  1
+proteome_37  0  1
+proteome_36  0  1
+proteome_35  0  1
+proteome_34  0  1
+proteome_32  0  1
+proteome_31  0  1
+proteome_30  0  1
+proteome_27  0  1
+proteome_26  0  1
+proteome_23  2  1
+proteome_21  0  1
+proteome_20  0  1
+proteome_19  2  1
+proteome_18  0  1
+proteome_16  1  1
+proteome_14  0  1
+proteome_13  0  1
+proteome_10  0  1
+proteome_09  0  1
+proteome_08  0  1
+proteome_05  1  1
+proteome_04  0  1
+proteome_03  1  1
+proteome_01  0  1
+proteome_46  0  0
+proteome_40  0  0
+proteome_33  0  0
+proteome_29  1  0
+proteome_28  0  0
+proteome_17  0  0
+proteome_15  1  0
+proteome_06  0  0
+proteome_02  0  0
