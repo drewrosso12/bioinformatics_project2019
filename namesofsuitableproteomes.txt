@@ -1,7 +1,6 @@
 proteome_03
 proteome_05
 proteome_07
-proteome_15
 proteome_16
 proteome_19
 proteome_23
